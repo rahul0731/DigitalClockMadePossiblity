@@ -7,14 +7,10 @@ import java.util.Set;
 public class DigitalClock {
 
 	public static void main(String[] args) {
-		
-		int a = 2;
-		int b = 3;
-		int c = 3;
-		int d = 2;
+		int a = 2,b=3,c=3,d=2;
 		int total_valid_Time = digitalClock(a, b, c, d);
-		System.out.println(set);
-		System.out.println(total_valid_Time);
+		System.out.println(set);  //[23:32, 23:23, 22:33]
+		System.out.println(total_valid_Time);//3
 		
 	}  
 
